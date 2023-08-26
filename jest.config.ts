@@ -14,7 +14,7 @@ const config: Config = {
     {
       ...rnJestPreset,
       displayName: 'Root',
-      testPathIgnorePatterns: ['<rootDir>/src/features'], // <= this is the issue, it causes no tests to run
+      testMatch: ['<rootDir>/__tests__/**/*.[jt]s?(x)'],
     },
     {
       ...rnJestPreset,
