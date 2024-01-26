@@ -1,0 +1,1 @@
+export {useFakeHook} from './useFakeHook';
